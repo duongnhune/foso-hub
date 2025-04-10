@@ -12,7 +12,8 @@ import { DataItemProps } from 'types/DataItems';
 import { PieChartData } from '/types/PieChartData';
 import { HorizontalBarChartItemProps } from '/types/HorizontalBarChartItem';
 import { ProgressItemProps } from '/types/ProgressItem';
-import { InventoryItemProps } from '/types/InventoryItem';
+import { InventoryItemProps } from '/types/InventoryItem.ts';
+
 
 interface ProductionPlanItem {
     label: string;
