@@ -1,0 +1,77 @@
+.top-products-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px; /* Adjust spacing with other sections */
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #141522;
+    margin-bottom: 15px;
+}
+span .section-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.filter-dropdown-container {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.top-products-section .sort-control select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.top-products-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.top-products-grid .top-product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+}
+
+.top-products-grid .top-product-item .value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2196f3;
+    margin-bottom: 5px;
+}
+
+.top-products-grid .top-product-item .label {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 3px;
+}
+
+.top-products-grid .top-product-item .percentage {
+    font-size: 0.8em;
+    color: #5cb85c;
+}
+
+.top-products-grid .top-product-item .percentage.negative {
+    color: #d9534f;
+}

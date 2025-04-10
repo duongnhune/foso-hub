@@ -1,0 +1,40 @@
+.horizontal-bar-chart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.horizontal-bar-chart-item .label {
+    width: 200px;
+    font-size: 14px;
+    color: #555;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.horizontal-bar-chart-item .bar-container {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 20px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.horizontal-bar-chart-item .bar-container .bar {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 12px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.horizontal-bar-chart-item .bar-container .bar .bar-value {
+    margin-left: auto;
+}

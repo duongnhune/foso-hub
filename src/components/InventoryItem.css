@@ -1,0 +1,23 @@
+.inventory-item {
+    display: grid;
+    grid-template-columns: 50px 100px 200px 80px 100px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    color: #666;
+    align-items: center;
+}
+
+.inventory-item:last-child {
+    border-bottom: none;
+}
+
+.inventory-item > div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.inventory-item .stt {
+    text-align: center;
+}

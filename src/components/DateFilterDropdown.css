@@ -1,0 +1,71 @@
+.date-filter-dropdown {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #344054;
+    background-color: #fff;
+}
+
+.date-filter-dropdown .dropdown-header {
+    display: flex;
+    align-items: center;
+}
+
+.date-filter-dropdown .calendar-icon {
+    margin-right: 8px;
+    color: #6B7280;
+}
+
+.date-filter-dropdown .dropdown-arrow {
+    width: 1em;
+    height: 1em;
+    margin-left: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.date-filter-dropdown .dropdown-arrow.open {
+    transform: rotate(180deg);
+}
+
+.date-filter-dropdown .dropdown-list {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    list-style: none;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.date-filter-dropdown .dropdown-option {
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #344054;
+}
+
+.date-filter-dropdown .dropdown-option:hover {
+    background-color: #F2F4F7;
+}
+
+.date-filter-dropdown .dropdown-option.selected {
+    font-weight: bold;
+    background-color: #E2E8F0;
+}
+
+.date-filter-dropdown .calendar-icon {
+    margin-right: 8px;
+    width: 1em; /* Adjust as needed */
+    height: 1em; /* Adjust as needed */
+    /* You might be able to control the fill color of the SVG here using 'color' */
+    color: #6B7280;
+}

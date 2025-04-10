@@ -1,5 +1,13 @@
+//html, body {
+//
+//  background-color: #f9f9f9 !important;
+//}
+
 html, body {
-  background-color: #f9f9f9 !important;
+  box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
 }
 .default-layout {
   display: flex;
