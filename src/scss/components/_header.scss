@@ -1,0 +1,132 @@
+.header {
+  background-color: #f9f9f9;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #f7bc85;
+  padding: 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.tab-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #222222;
+  padding-left: 10px;
+}
+
+.account-container {
+  position: relative;
+}
+
+.btn-account {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: fit-content;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+
+.account-button-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;;
+}
+
+.btn-account {
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown {
+  position: absolute !important;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 100%;
+  z-index: 1000;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-bottom: 1px solid;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.lesson {
+  margin: 20px;
+  color: var(--neutral-02-day, #222);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}

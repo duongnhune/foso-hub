@@ -1,0 +1,240 @@
+.search-sort-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+}
+
+.search-sort-row .ant-input-search {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.icon-wrapper {
+  margin-right:24px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.icon-wrapper svg {
+  color: orange;
+}
+
+.post-item-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius:16px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #f7bc85;
+    top: 0;
+    left: 0;
+    width: 0.5rem;
+    height: 100%;
+  }
+
+  .post-item-img {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
+  }
+
+  .post-item-content {
+    flex: 1;
+
+    h4 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Poppins;
+      font-weight: 600;
+      line-height: 22.4px;
+    }
+
+    p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      //styleName: Small/12px - Regular;
+      font-family: Poppins;
+      font-weight: 400;
+      line-height: 15.6px;
+    }
+  }
+
+  .post-footer {
+    margin-top: auto;
+    text-align: left;
+
+    span {
+      font-family: Poppins;
+    }
+
+    .created-date {
+      color: gray;
+      font-size: 12px;
+      padding-right: 16px;
+    }
+  }
+}
+
+.custom-search .ant-input {
+  border-color: orange !important;
+}
+
+.custom-search .ant-input:focus {
+  border-color: orange !important;
+  box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.2) !important;
+}
+
+.custom-search .ant-input-group-addon {
+  background-color: orange !important;
+}
+
+.custom-search .ant-btn {
+  background-color: orange !important;
+  border-color: orange !important;
+  color: white !important;
+}
+
+.custom-search .ant-btn:hover {
+  background-color: #ff7f0e !important;
+  border-color: #ff7f0e !important;
+}
+
+.custom-search .ant-btn:focus {
+  background-color: #ff7f0e !important;
+  border-color: #ff7f0e !important;
+  box-shadow: 0 0 0 2px rgba(255, 127, 14, 0.2) !important;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.post-details {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.lesson-title {
+  font-family: Poppins;
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  color: #292929;
+}
+
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.created-date {
+  margin-left: auto;
+  color: gray;
+  font-size: 12px;
+  padding-right: 16px;
+}
+
+.lesson-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 26px;
+  color: gray;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.post-content {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #292929;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lesson-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lesson-content a:hover {
+  text-decoration: underline;
+}
+
+.lesson-content p {
+  margin-bottom: 15px;
+}
+
+.lesson-content ul, .lesson-content ol {
+  margin-left: 20px;
+}
+
+.lesson-content li {
+  margin-bottom: 10px;
+}
+
+.dropdown-wrapper {
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  color: gray;
+}
+
+.dropdown-wrapper:hover {
+  border-color: #ff7f0e !important;
+  box-shadow: 0 0 0 2px rgba(255, 127, 14, 0.2) !important;
+}

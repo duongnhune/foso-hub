@@ -1,0 +1,88 @@
+.tiptap {
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  ul,
+  ol {
+    padding: 0 1rem;
+    margin: 1.25rem 1rem 1.25rem 0.4rem;
+
+    li p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+  }
+
+  code {
+    background-color: var(--purple-light);
+    border-radius: 0.4rem;
+    color: var(--black);
+    font-size: 0.85rem;
+    padding: 0.25em 0.3em;
+  }
+
+  pre {
+    background: var(--black);
+    border-radius: 0.5rem;
+    color: var(--white);
+    font-family: 'JetBrainsMono', monospace;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+
+    code {
+      background: none;
+      color: inherit;
+      font-size: 0.8rem;
+      padding: 0;
+    }
+  }
+
+  blockquote {
+    border-left: 3px solid var(--gray-3);
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--gray-2);
+    margin: 2rem 0;
+  }
+}
+
+.form-editor-wrapper {
+  border: 2px solid lightgray;
+  border-radius: 1px;
+
+  .control-group {
+    border-bottom: 1px solid lightgray;
+
+
+    .button-group {
+      button {
+        background-color: #fff;
+        padding: 5px 10px;
+        margin: 2px;
+        border-radius: 5px;
+        &.is-active {
+          background-color: lightblue;
+        }
+      }
+    }
+  }
+
+  .ProseMirror {
+    min-height: 100px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
+
+.tiptap-image {
+  max-width: 50%;
+  object-fit: contain;
+}

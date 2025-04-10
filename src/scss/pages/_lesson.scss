@@ -1,0 +1,107 @@
+.lesson-item-wrapper {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .lesson-item-content {
+    h4 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Poppins;
+      font-weight: 600;
+      line-height: 22.4px;
+    }
+
+    p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      //styleName: Small/12px - Regular;
+      font-family: Poppins;
+      font-weight: 400;
+      line-height: 15.6px;
+    }
+  }
+
+  .created-date {
+    color: gray;
+    font-size: 12px;
+  }
+}
+
+.lesson-list-container {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+.col-md-6 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.custom-item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  gap: 10px;
+}
+
+.action-buttons button {
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.action-buttons button:last-child {
+  margin-right: 0;
+}
+
+.ck-editor__editable {
+  height: 250px;
+  overflow-y: auto;
+}
+
+.pagination-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+ul.ant-pagination {
+  justify-content: center;
+}
+
+
+.modal-item label{
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.justify-content-end button {
+  min-width: 100px;
+}

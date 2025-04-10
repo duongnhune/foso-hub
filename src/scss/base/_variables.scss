@@ -1,0 +1,17 @@
+$primary-color: #ff5836;
+$secondary-color: #198754;
+$tertiary-color: #2196f3;
+
+.primary-text {
+  font-family: Poppins;
+  color: $primary-color;
+  text-transform: uppercase;
+}
+
+.secondary-text {
+  color: $secondary-color;
+}
+
+.tertiary-text {
+  color: $tertiary-color;
+}
